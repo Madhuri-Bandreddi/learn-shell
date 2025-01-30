@@ -1,4 +1,4 @@
-funtion_name() {
+function_name() {
   echo Hello World
 }
 function_name
