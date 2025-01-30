@@ -20,4 +20,4 @@ function_name1(){
   echo all argument - $*
   echo no of argument - $#
 }
-function_name1 123 xyz
+function_name1 1234 Mammu
