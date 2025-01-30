@@ -11,7 +11,7 @@ then
 fi
 
 
-percent=$(curl -s https://www.themoviedb.org/movie/$input |grep user_score_chart | xargs -n1 | grep data-percent | awk -f = "{print $2}")
+percent=$(curl -s https://www.themoviedb.org/movie/$input |grep user_score_chart | xargs -n1 | grep data-percent | awk -F  = "{print $2}")
 echo percent - $percent
 if [ "$percent" -ge 70 ];
 then
