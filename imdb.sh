@@ -2,7 +2,7 @@
 # > 7 - Good
 # < 7 - Average
 input=$1
-if [ -Z "$input" ];
+if [ -Z "$input" ] ;
 then
   echo Input Movie Name Missing
   exit
