@@ -21,3 +21,4 @@ then
 else
   echo Average
 fi
+
