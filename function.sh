@@ -16,7 +16,7 @@ function_name1() {
   echo No Of Arguments = $#
 }
 
-#a=123
+a=123
 function_name1 123 xyz
 
 # Functions will have its own exit status , but not with exit command, we have to use return command with exit states.
